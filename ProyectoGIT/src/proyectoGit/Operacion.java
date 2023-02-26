@@ -43,5 +43,13 @@ public class Operacion {
 	protected double divi() {
 		return a/b;
 	}
+	
+	protected double potenciacion() {
+		return Math.pow(a, b);
+	}
+	
+	protected double raiz() {
+		return Math.pow(a, 1/b);
+	}
 
 }
