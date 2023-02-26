@@ -64,6 +64,12 @@ public class Principal {
 		case 4:
 			resultado = operacion.divi();
 			break;
+		case 5:
+			resultado = operacion.potenciacion();
+			break;
+		case 6:
+			resultado = operacion.raiz();
+			break;
 		}
 
 		System.out.println("El resultado es: " + resultado);
